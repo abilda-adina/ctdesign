@@ -9,11 +9,15 @@
 /* Begin PBXBuildFile section */
 		2F1335571F8BE99C001D8F35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1335561F8BE99C001D8F35 /* main.m */; };
 		2F13355A1F8BE99C001D8F35 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1335591F8BE99C001D8F35 /* AppDelegate.m */; };
-		2F13355D1F8BE99C001D8F35 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F13355C1F8BE99C001D8F35 /* ViewController.m */; };
 		2F1335601F8BE99C001D8F35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F13355E1F8BE99C001D8F35 /* Main.storyboard */; };
 		2F1335631F8BE99C001D8F35 /* CTravelDesign.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2F1335611F8BE99C001D8F35 /* CTravelDesign.xcdatamodeld */; };
 		2F1335651F8BE99C001D8F35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F1335641F8BE99C001D8F35 /* Assets.xcassets */; };
 		2F1335681F8BE99C001D8F35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F1335661F8BE99C001D8F35 /* LaunchScreen.storyboard */; };
+		2F1335741F8BEAD4001D8F35 /* OrderListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1335721F8BEAD4001D8F35 /* OrderListTableViewCell.m */; };
+		2F1335751F8BEAD4001D8F35 /* OrderListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F1335731F8BEAD4001D8F35 /* OrderListTableViewCell.xib */; };
+		2F13357C1F8BF54E001D8F35 /* OrderListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F13357B1F8BF54E001D8F35 /* OrderListTableViewController.m */; };
+		2F1335CD1F8CDB91001D8F35 /* ticket.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F1335CC1F8CDB91001D8F35 /* ticket.png */; };
+		2F1335CF1F8CDC29001D8F35 /* status.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F1335CE1F8CDC29001D8F35 /* status.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,13 +25,18 @@
 		2F1335561F8BE99C001D8F35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2F1335581F8BE99C001D8F35 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2F1335591F8BE99C001D8F35 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2F13355B1F8BE99C001D8F35 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2F13355C1F8BE99C001D8F35 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2F13355F1F8BE99C001D8F35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2F1335621F8BE99C001D8F35 /* CTravelDesign.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CTravelDesign.xcdatamodel; sourceTree = "<group>"; };
 		2F1335641F8BE99C001D8F35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F1335671F8BE99C001D8F35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F1335691F8BE99C001D8F35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F1335711F8BEAD4001D8F35 /* OrderListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderListTableViewCell.h; sourceTree = "<group>"; };
+		2F1335721F8BEAD4001D8F35 /* OrderListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderListTableViewCell.m; sourceTree = "<group>"; };
+		2F1335731F8BEAD4001D8F35 /* OrderListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OrderListTableViewCell.xib; sourceTree = "<group>"; };
+		2F13357A1F8BF54E001D8F35 /* OrderListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OrderListTableViewController.h; path = ViewControllers/OrderListTableViewController.h; sourceTree = "<group>"; };
+		2F13357B1F8BF54E001D8F35 /* OrderListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OrderListTableViewController.m; path = ViewControllers/OrderListTableViewController.m; sourceTree = "<group>"; };
+		2F1335CC1F8CDB91001D8F35 /* ticket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ticket.png; path = "../../../../Pictures/ct png/ticket.png"; sourceTree = "<group>"; };
+		2F1335CE1F8CDC29001D8F35 /* status.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = status.png; path = "../../../../Pictures/ct png/status.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +69,11 @@
 		2F1335541F8BE99C001D8F35 /* CTravelDesign */ = {
 			isa = PBXGroup;
 			children = (
+				2F1335C91F8CDB1A001D8F35 /* Sources */,
 				2F1335581F8BE99C001D8F35 /* AppDelegate.h */,
 				2F1335591F8BE99C001D8F35 /* AppDelegate.m */,
-				2F13355B1F8BE99C001D8F35 /* ViewController.h */,
-				2F13355C1F8BE99C001D8F35 /* ViewController.m */,
+				2F13357D1F8BF566001D8F35 /* ViewController */,
+				2F1335791F8BF518001D8F35 /* Views */,
 				2F13355E1F8BE99C001D8F35 /* Main.storyboard */,
 				2F1335641F8BE99C001D8F35 /* Assets.xcassets */,
 				2F1335661F8BE99C001D8F35 /* LaunchScreen.storyboard */,
@@ -80,6 +90,34 @@
 				2F1335561F8BE99C001D8F35 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2F1335791F8BF518001D8F35 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2F1335711F8BEAD4001D8F35 /* OrderListTableViewCell.h */,
+				2F1335721F8BEAD4001D8F35 /* OrderListTableViewCell.m */,
+				2F1335731F8BEAD4001D8F35 /* OrderListTableViewCell.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		2F13357D1F8BF566001D8F35 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2F13357A1F8BF54E001D8F35 /* OrderListTableViewController.h */,
+				2F13357B1F8BF54E001D8F35 /* OrderListTableViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		2F1335C91F8CDB1A001D8F35 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				2F1335CE1F8CDC29001D8F35 /* status.png */,
+				2F1335CC1F8CDB91001D8F35 /* ticket.png */,
+			);
+			name = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,8 +180,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F1335681F8BE99C001D8F35 /* LaunchScreen.storyboard in Resources */,
+				2F1335CD1F8CDB91001D8F35 /* ticket.png in Resources */,
 				2F1335651F8BE99C001D8F35 /* Assets.xcassets in Resources */,
 				2F1335601F8BE99C001D8F35 /* Main.storyboard in Resources */,
+				2F1335CF1F8CDC29001D8F35 /* status.png in Resources */,
+				2F1335751F8BEAD4001D8F35 /* OrderListTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,10 +195,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F13355D1F8BE99C001D8F35 /* ViewController.m in Sources */,
 				2F1335631F8BE99C001D8F35 /* CTravelDesign.xcdatamodeld in Sources */,
 				2F13355A1F8BE99C001D8F35 /* AppDelegate.m in Sources */,
+				2F13357C1F8BF54E001D8F35 /* OrderListTableViewController.m in Sources */,
 				2F1335571F8BE99C001D8F35 /* main.m in Sources */,
+				2F1335741F8BEAD4001D8F35 /* OrderListTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +356,7 @@
 				2F13356E1F8BE99C001D8F35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

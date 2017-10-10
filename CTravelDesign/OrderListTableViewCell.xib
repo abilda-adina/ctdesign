@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="blue" indentationWidth="10" reuseIdentifier="OrderListCell" rowHeight="141" id="KGk-i7-Jjw" customClass="OrderListTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="318" height="273"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="318" height="272"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="№ 201245123" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EHY-s4-E6N">
+                        <rect key="frame" x="20" y="25" width="109.5" height="19.5"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                        <color key="textColor" red="0.12941176470588234" green="0.17254901960784313" blue="0.35686274509803922" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="23.10.2016" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hTP-sX-WAr">
+                        <rect key="frame" x="241" y="25" width="62" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.12941176469999999" green="0.17254901959999999" blue="0.35686274509999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="m25-Z8-DL4">
+                        <rect key="frame" x="212" y="25" width="20" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="HiH-h2-m1e"/>
+                            <constraint firstAttribute="width" constant="20" id="pEG-ND-lFP"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="kDK-6Z-YgO">
+                        <rect key="frame" x="21" y="225" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="4Ak-mS-zZa"/>
+                            <constraint firstAttribute="width" constant="20" id="NGW-ba-rug"/>
+                        </constraints>
+                    </imageView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="LOB-dY-gRt">
+                        <rect key="frame" x="20" y="52" width="196.5" height="44.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AKHMETOV" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3PG-ER-FyS">
+                                <rect key="frame" x="0.0" y="0.0" width="71" height="14.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                <color key="textColor" red="0.12941176469999999" green="0.17254901959999999" blue="0.35686274509999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Алма-Ата  -  Астана  /  30.12.2016" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rVB-Df-8Xi">
+                                <rect key="frame" x="0.0" y="14.5" width="196.5" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="FBy-xg-9yL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.12941176469999999" green="0.17254901959999999" blue="0.35686274509999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="MI7-y7-tCt">
+                        <rect key="frame" x="20" y="107" width="196.5" height="44.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AKHMETOV" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2w2-l0-eFu">
+                                <rect key="frame" x="0.0" y="0.0" width="71" height="14.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                <color key="textColor" red="0.12941176469999999" green="0.17254901959999999" blue="0.35686274509999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Алма-Ата  -  Астана  /  30.12.2016" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tHc-gE-8jf">
+                                <rect key="frame" x="0.0" y="14.5" width="196.5" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="6Di-ac-Or2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.12941176469999999" green="0.17254901959999999" blue="0.35686274509999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="FVk-Ry-bqY">
+                        <rect key="frame" x="20" y="161" width="196.5" height="44.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AKHMETOV" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ctS-OQ-sNH">
+                                <rect key="frame" x="0.0" y="0.0" width="71" height="14.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                <color key="textColor" red="0.12941176469999999" green="0.17254901959999999" blue="0.35686274509999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Алма-Ата  -  Астана  /  30.12.2016" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gEb-rH-nOe">
+                                <rect key="frame" x="0.0" y="14.5" width="196.5" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="ejA-Qn-Tzn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.12941176469999999" green="0.17254901959999999" blue="0.35686274509999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Оформлен" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CNV-xv-fJA">
+                        <rect key="frame" x="49" y="220" width="63" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="mOC-7f-2FB"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.29803921568627451" green="0.68627450980392157" blue="0.31372549019607843" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="MI7-y7-tCt" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="12" id="1Pg-sV-Xmk"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="hTP-sX-WAr" secondAttribute="trailing" constant="7" id="1oM-aI-1s3"/>
+                    <constraint firstItem="LOB-dY-gRt" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="12" id="4GV-Jj-YZf"/>
+                    <constraint firstItem="hTP-sX-WAr" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="17" id="FA5-62-fC8"/>
+                    <constraint firstItem="EHY-s4-E6N" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="12" id="GgY-hI-IOT"/>
+                    <constraint firstItem="kDK-6Z-YgO" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="13" id="JwT-Lb-ziv"/>
+                    <constraint firstItem="m25-Z8-DL4" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="17" id="Li3-C1-pWs"/>
+                    <constraint firstItem="FVk-Ry-bqY" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="12" id="QQi-09-paf"/>
+                    <constraint firstItem="kDK-6Z-YgO" firstAttribute="top" secondItem="FVk-Ry-bqY" secondAttribute="bottom" constant="20" id="VgD-so-3zY"/>
+                    <constraint firstItem="hTP-sX-WAr" firstAttribute="leading" secondItem="m25-Z8-DL4" secondAttribute="trailing" constant="9" id="bkV-0G-mvh"/>
+                    <constraint firstItem="FVk-Ry-bqY" firstAttribute="top" secondItem="MI7-y7-tCt" secondAttribute="bottom" constant="10" id="efR-3a-nkv"/>
+                    <constraint firstItem="LOB-dY-gRt" firstAttribute="top" secondItem="EHY-s4-E6N" secondAttribute="bottom" constant="7.5" id="f9d-Et-gdo"/>
+                    <constraint firstItem="CNV-xv-fJA" firstAttribute="top" secondItem="FVk-Ry-bqY" secondAttribute="bottom" constant="15" id="j4v-4T-BDU"/>
+                    <constraint firstItem="EHY-s4-E6N" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="17" id="nl4-kb-cNN"/>
+                    <constraint firstItem="CNV-xv-fJA" firstAttribute="leading" secondItem="kDK-6Z-YgO" secondAttribute="trailing" constant="8" id="rd0-uf-n4v"/>
+                    <constraint firstItem="MI7-y7-tCt" firstAttribute="top" secondItem="LOB-dY-gRt" secondAttribute="bottom" constant="10" id="sE5-d6-pgk"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="date" destination="hTP-sX-WAr" id="VLO-Vp-Imj"/>
+                <outlet property="details" destination="rVB-Df-8Xi" id="Uwd-BG-a7b"/>
+                <outlet property="name" destination="3PG-ER-FyS" id="vEK-Bd-Qo9"/>
+                <outlet property="orderNumber" destination="EHY-s4-E6N" id="OF7-Uh-9Sa"/>
+                <outlet property="statusImage" destination="kDK-6Z-YgO" id="RXt-gz-EDi"/>
+                <outlet property="statusMessage" destination="CNV-xv-fJA" id="QgI-wT-PrH"/>
+                <outlet property="ticketTypeImage" destination="m25-Z8-DL4" id="dB6-Ku-xPk"/>
+            </connections>
+            <point key="canvasLocation" x="38" y="102.5"/>
+        </tableViewCell>
+    </objects>
+</document>
